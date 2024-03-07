@@ -89,6 +89,9 @@
         },
         {
           "sectionFileLocation": "materials/EyeEmissionPoint3-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/EyeEmissionPoint4-2.material"
         }
       ]
     },
@@ -435,7 +438,7 @@
       "effectUsesOverlayOutput": false,
       "effectUsesPBRMaterial": false,
       "effectUsesParticipant": false,
-      "effectUsesParticleSystem": false,
+      "effectUsesParticleSystem": true,
       "effectUsesPeerOutput": false,
       "effectUsesPeerVideoStream": false,
       "effectUsesPermissions": false,
