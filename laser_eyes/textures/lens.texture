@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "lens",
+  "identifier": "texture:3410-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "f304735bb577a2f7faf04b9dac343a98",
+  "assetLocator": "textures/lens.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 360,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 540,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "f304735bb577a2f7faf04b9dac343a98",
+      "colorCount": 3325,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 1.669909822187103,
+      "pixelsHigh": 360,
+      "pixelsWide": 540
+    }
+  ]
+}

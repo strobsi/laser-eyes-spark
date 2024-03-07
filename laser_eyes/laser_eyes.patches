@@ -1,0 +1,156 @@
+{
+  "id": "2611ae0834a0e4bc6aba78f3af625f2c9",
+  "revision": "12911611ae0834a0e4bc6aba78f3af625f2c9",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:2576-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPatch": "template_patch_model:2572-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:2574-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:2974-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPatch": "template_patch_model:2574-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:2972-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:2978-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPatch": "template_patch_model:2972-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:2976-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:2982-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPatch": "template_patch_model:2972-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "fromPort": "106",
+        "toPatch": "consumer_patch_model:2980-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "subpatches": [
+          "consumer_patch_model:2976-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+          "consumer_patch_model:2980-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+          "template_patch_model:2572-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+          "template_patch_model:2574-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+          "template_patch_model:2972-611ae083-4a0e-4bc6-aba7-8f3af625f2c9"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Left",
+        "identifier": "consumer_patch_model:2976-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "object": "sceneObject:2378-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "objectProperty": "position",
+        "position": [
+          1028,
+          20
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Right",
+        "identifier": "consumer_patch_model:2980-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "object": "sceneObject:2188-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "objectProperty": "position",
+        "position": [
+          1028,
+          116
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:2572-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "position": [
+          308,
+          92
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:2574-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "position": [
+          524,
+          68
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Eyelid",
+        "identifier": "template_patch_model:2972-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+        "position": [
+          788,
+          -4
+        ],
+        "templateId": "builtin.eye"
+      }
+    ]
+  }
+}

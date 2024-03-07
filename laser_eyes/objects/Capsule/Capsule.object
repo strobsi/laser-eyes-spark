@@ -1,0 +1,84 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Capsule",
+  "identifier": "master3_d_object_model:1123-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+  "sourceIdentifier": "asset_collection_model:1127-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.025111176073551178,
+  "globalScaleFactor": 1,
+  "height": 0.026403453201055527,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.04918446019291878,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Capsule",
+      "identifier": "mesh:1113-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Capsule",
+      "numberOfFaces": 260,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:1117-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:1115-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:1120-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1111-611ae083-4a0e-4bc6-aba7-8f3af625f2c9",
+              "surfaceGroupIdentifier": "1121-611ae083-4a0e-4bc6-aba7-8f3af625f2c9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
